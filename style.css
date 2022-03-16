@@ -1,3 +1,5 @@
+/***** Small screen size styles *****/
+
 /* General styles */
 html{
    box-sizing: border-box;
@@ -101,6 +103,9 @@ main span {
 main p {
    line-height: 1.5rem;
    text-indent: 1.5rem;
+   text-align: justify;
+   text-justify: inter-word;
+
 }
 
 main h3 {
@@ -233,4 +238,79 @@ header a:hover img {
    /* transition-timing-function: ease-in-out; */
 } 
 
+/***** Medium screen size styles ******/
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+   /* Header styles */
+   header a img {
+      display: none;
+   }
+
+   header {
+      display: block;
+      padding-bottom: 3rem;
+   }
+
+   header h1 {
+      font-size: 2rem ;
+      display: block;
+      text-align: left;
+   }
+
+   nav {
+      display: block;
+   }
+
+   ul {
+      display: block;
+      float: right;
+      padding-right: 1rem;
+   }
+
+   header li {
+      font-size: 1rem;
+   }
+
+   #last_slash, #close_icon {
+      display: none;
+   }
+
+   /* Portrait styles */
+   img#hero {
+      width: 30%;
+      margin: 1rem 0 0 0;
+      height: auto;
+      float: right;
+   }
+
+   /* "About Me" styles */
+   main h2 {
+      margin-top: 5rem;
+   }
+
+   main span {
+      margin: 1rem 0 0.5rem 0;
+   }
+
+   #text_introduction {
+      margin-bottom: 1.0rem;
+   }
+   #text_body {
+      column-count: 2;
+   }
+
+   /* Skills images styles */
+
+   .skills_icons_container {
+      justify-content:space-around
+   }
+
+   .skills_icons_container img {
+      width: 8%;
+      min-width: 4%;
+      height: auto;
+      margin-bottom: 1rem;
+   }
+   
+}
 
