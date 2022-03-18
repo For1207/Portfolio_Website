@@ -29,6 +29,12 @@ h2 {
 h3 {
    font-size: 1.15rem;
 }
+h4 {
+   font-size: 1rem;
+   font-weight: 500;
+   padding: 0.5rem 1rem 0.5rem 0.25rem;
+   display: inline-block;
+}
 
 main {
    width: 92%;
@@ -45,6 +51,7 @@ header {
    justify-content: center;
    align-items: center;
    padding: 1.25rem 0;
+   margin-bottom: 1rem;
 }
 
 h1 {
@@ -128,6 +135,31 @@ main h3 {
    margin-bottom: 1rem;
 }
 
+/* Projects section styling */
+/* .restaurant_review_app, .feed_reader, .arcade_game, .memory_game {
+   background-color: #3e606f;
+   color:#fcfff5;
+   border: 2px solid #fcfff5;
+   border-radius: 0.2rem;
+} */
+
+.project_menu_header {
+   background-color: #3e606f;
+   color:#fcfff5;
+   border-bottom: 2px solid #fcfff5;
+   border-radius: 0.2rem;
+}
+
+.project_menu_header img {
+   width: 12px;
+   margin: auto 0;
+   padding-left: 0.5rem;
+}
+
+img.screenshot{
+   width: 100%;
+   margin: 0 auto;
+}
 
 /* footer styles */
 footer {
@@ -153,8 +185,8 @@ footer img {
    /* width: 83%; */
    display: flex;
    background-color: #d1dbbd;
-   padding: 0.5rem 1rem;
-   margin: 0 auto;
+   padding: 0.5rem 1.5rem;
+   /* margin: 0 auto; */
    justify-content: center;
 }
 
@@ -169,7 +201,6 @@ footer img {
 }
 
 .phone_and_mail_container {
-   /* width: 83%; */
    display: flex;
    background-color: #3e606f;
    padding: 0.5rem 1rem;
@@ -185,7 +216,7 @@ footer img {
 }
 
 footer span {
-   color: #d1dbbd;
+   color: #fcfff5;
    font-weight: 500;
    padding: 0 1rem 0 0.25rem;
 }
@@ -278,9 +309,11 @@ header a:hover img {
    /* Portrait styles */
    img#hero {
       width: 30%;
-      margin: 1rem 0 0 0;
+      margin: 1.5rem 0 0 0;
       height: auto;
       float: right;
+      padding: 0 1rem 0 2rem;
+
    }
 
    /* "About Me" styles */
@@ -312,5 +345,117 @@ header a:hover img {
       margin-bottom: 1rem;
    }
    
+   /* Footer styles */
+
+   .socials-container img {
+      width: 50%;
+      height: auto;
+   }
+
+   .phone_and_mail_container img {
+      width: 6%;
+      height: auto;
+   }
 }
 
+/***** Big screen size styles ******/
+
+@media only screen and (min-width: 769px) {
+   /* Header styles */
+   header a img {
+      display: none;
+   }
+
+   header {
+      display: block;
+      padding-bottom: 3rem;
+   }
+
+   header h1 {
+      font-size: 2rem ;
+      display: block;
+      text-align: left;
+   }
+
+   nav {
+      display: block;
+   }
+
+   ul {
+      display: block;
+      float: right;
+      padding-right: 1rem;
+   }
+
+   header li {
+      font-size: 1rem;
+   }
+
+   #last_slash, #close_icon {
+      display: none;
+   }
+
+   /* Portrait styles */
+   img#hero {
+      max-width: 258px;
+      margin: 1.5rem 0 0 0;
+      height: auto;
+      float: right;
+      padding: 0 1rem 0 2rem;
+
+   }
+
+   /* "About Me" styles */
+   main h2 {
+      margin-top: 6rem;
+   }
+
+   main span {
+      margin: 2rem 0 1em 0;
+   }
+
+   #text_introduction {
+      margin-bottom: 2rem;
+   }
+   #text_body {
+      column-count: 3;
+   }
+
+   /* Skills images styles */
+
+   .skills_icons_container {
+      justify-content:space-between
+   }
+
+   .skills_icons_container img {
+      max-width: 60px;
+      height: auto;
+      margin-bottom: 1rem;
+   }
+   
+   /* Footer styles */
+   .socials-container {
+      justify-content: center;
+   }
+
+   .socials-container img {
+      max-width: 50px;
+      min-width: 50px;
+      height: auto;
+      padding: 0 3rem;
+   }
+
+   .phone_and_mail_container img {
+      max-width: 50px;
+      min-width: 50px;
+      height: auto;
+      padding: 0 1rem;
+   }
+
+   .projects {
+      justify-content: space-around;
+   }
+   .projects div {
+      max-width: 45%;
+   }
+}
