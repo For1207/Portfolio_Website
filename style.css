@@ -164,6 +164,10 @@ img.screenshot{
    margin-top: 0.5rem;
 }
 
+.project_menu_body {
+   display: none;
+}
+
 /* footer styles */
 footer {
    padding-bottom: 0.1rem;
@@ -441,15 +445,27 @@ header a:hover img {
       margin: 0 auto;
    }
 
+   .project_menu_header {
+      width: 75%;
+      margin: 0 auto;
+   }
+
 
    /* Skills images styles */
 
    .skills_icons_container {
-      justify-content:space-between
+      justify-content:space-between;
    }
 
-   .skills_icons_container img {
-      max-width: 60px;
+   .skills_icons_container{
+      max-width: 100%;
+      margin-bottom: 1rem;
+      justify-content: space-around;
+   }
+
+   .skills_icons_container img{
+      min-width: 4%;
+      max-width: 4%;
       height: auto;
       margin-bottom: 1rem;
    }

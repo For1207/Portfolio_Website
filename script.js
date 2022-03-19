@@ -34,3 +34,14 @@ function hideMenuDisplayIcon() {
 }
 
 const closeMenuListener = document.getElementById('close_icon').addEventListener("click", hideMenuDisplayIcon);
+
+// Opens and closes the "Projects" menu section on the main page
+
+function openProjectMenu() {
+   document.getElementById('restaurant_review_menu_body').style.display = 'block';
+   document.getElementById('first_project').src = "images/icons/triangle_menu_opened.png";
+};
+
+function closeProjectMenu() {};
+
+ const openProjectMenuListener = document.getElementById(restaurant_review_menu_header).addEventListener("click", openProjectMenu);
