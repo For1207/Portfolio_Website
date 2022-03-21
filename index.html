@@ -65,10 +65,10 @@
          </div>
          <h3>PROJECTS</h3>
          <div class="projects">
-            <div class="restaurant_review_app">
-               <a href="#restaurant_review_menu_body">
+            <div id="restaurant_review_app" class="restaurant_review_app" onClick = "replyClick(this.id)">
+               <a href="javascript:;">
                   <div id="restaurant_review_menu_header" class="project_menu_header">
-                     <img id="first_project" src="images/icons/triangle_menu_closed.png" alt="menu_icon">
+                     <img id="restaurant_review_app_triangle" src="images/icons/triangle_menu_closed.png" alt="menu_icon">
                      <h4>Restaurant Review App</h4>
                   </div>
                </a>
@@ -77,31 +77,37 @@
                   <a href="#"><img class="screenshot" src="images/projects_screenshots/Restaurant_Review_App.png" alt="Restaurant Review App screenshot"></a>
                </div>
             </div>
-            <div class="feed_reader">
-               <div class="project_menu_header">
-                  <img src="images/icons/triangle_menu_closed.png" alt="menu_icon">
-                  <h4>Feed Reader Testing</h4>
-               </div>
+            <div id="feed_reader" class="feed_reader" onClick = "replyClick(this.id)">
+               <a href="javascript:;">
+                  <div id="feed_reader_menu_header" class="project_menu_header">
+                     <img id ="feed_reader_triangle" src="images/icons/triangle_menu_closed.png" alt="menu_icon">
+                     <h4>Feed Reader Testing</h4>
+                  </div>
+               </a>
                <div id="feed_reader_menu_body" class="project_menu_body">
                   <p> Automated testing of a web RSS feeds application with Jasmine JS</p>
                   <a href="#"><img class="screenshot" src="images/projects_screenshots/Feed_Reader_Testing.png" alt="Feed Reader Testing App screenshot"></a>
                </div>
             </div>
-            <div class="arcade_game">
-               <div class="project_menu_header">
-                  <img src="images/icons/triangle_menu_closed.png" alt="menu_icon">
-                  <h4>Classic Arcade Game</h4>
-               </div>
-               <div id="arcage_game_menu_body" class="project_menu_body">
+            <div id="arcade_game" class="arcade_game" onClick = "replyClick(this.id)">
+               <a href="javascript:;">
+                  <div class="project_menu_header">
+                     <img id ="arcade_game_triangle"src="images/icons/triangle_menu_closed.png" alt="menu_icon">
+                     <h4>Classic Arcade Game</h4>
+                  </div>
+               </a>
+               <div id="arcade_game_menu_body" class="project_menu_body">
                   <p>An arcade game using object-oriented JavaScript programming</p>
                   <a href="#"><img class="screenshot" src="images/projects_screenshots/Classic_Arcade_Game.png" alt="Classic Arcade Game screenshot"></a>
                </div>
             </div>
-            <div class="memory_game">
-               <div class="project_menu_header">
-                  <img src="images/icons/triangle_menu_closed.png" alt="menu_icon">
-                  <h4>Memory Game "Concentration"</h4>
-               </div>
+            <div id = "memory_game" class="memory_game" onClick = "replyClick(this.id)" >
+               <a href="javascript:;">
+                  <div class="project_menu_header">
+                     <img id="memory_game_triangle" src="images/icons/triangle_menu_closed.png" alt="menu_icon">
+                     <h4>Memory Game "Concentration"</h4>
+                  </div>
+               </a>
                <div id="memory_game_menu_body" class="project_menu_body">
                   <p>Emulates the logic of the card game with JavaScript, CSS and HTML</p>
                   <a href="#"><img class="screenshot" src="images/projects_screenshots/Memory_game.png" alt="Memory game screenshot"></a>
