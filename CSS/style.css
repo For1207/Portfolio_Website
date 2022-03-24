@@ -4,7 +4,7 @@
 html{
    box-sizing: border-box;
    background-color: #fcfff5;
-   font-size: 16px;
+   font-size: 18px;
    font-family: "Open Sans", sans-serif;
    font-weight: 300;
    color: #193441;
@@ -16,7 +16,7 @@ h1, h2, h3 {
 }
 
 h1{
-   font-size: 2.25rem;
+   font-size: 2.2rem;
    color: #fcfff5;
 }
 h2, h2 {
@@ -124,13 +124,11 @@ main h3 {
    border-radius: 0.15rem;
 }
 
-.skills_icons_container {
-   display: flex;
-}
+
 
 .skills_icons_container img {
    width: 12%;
-   min-width: 6%;
+   min-width: 49px;
    height: auto;
    margin-bottom: 1rem;
 }
@@ -357,7 +355,7 @@ header a:hover img {
    }
 
    .skills_icons_container img {
-      width: 8%;
+      width: 10.99%;
       min-width: 4%;
       height: auto;
       margin-bottom: 1rem;
