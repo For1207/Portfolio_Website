@@ -123,36 +123,31 @@ span {
    list-style-type:circle
 }
 
-.row .work {
-   margin-top: 1rem;
-}
-
 /* Download section styles */
+#resume-docs {
+   margin-top: 4rem;
+}
 
-#download {
-   width: 72px;
-   background-color: white;
-   border: 1 px solid rgb(192, 192, 192);
-   box-shadow: 1px 1px;
-   padding: 1rem 0;
-   position: sticky;
+#resume-docs .col-sm-10 {
+}
+
+
+a img {
    float: right;
-   top: 0;
-   right: 8.5%;
+   border: 2px solid transparent;
+   height: 56px;
+   padding: 4px;
+   border-radius: 2px;
+   margin: 0 10px;
 }
 
-.row a img {
-   border: none;
-   width: 48px;
+a img:hover {
+   border: 2px solid rgb(192, 192, 192);
 }
 
-#ms-word-icon, #adobe-pdf-icon {
-   padding-top: 1.5rem;
+a img:active {
+   border: 2px solid rgb(240, 188, 104);
 }
-
-/* .download-links {
-   display: none;
-} */
 
 
 
