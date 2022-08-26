@@ -6,7 +6,8 @@ body {
    background-image: url(../images/background5.jpg);
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   /* background-size: cover; */
+   background-size: 100%;
 }
 
 nav-link a::before {
