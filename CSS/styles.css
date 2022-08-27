@@ -9,6 +9,10 @@ body {
    background-size: cover;
 }
 
+.nav-link {
+   padding: 0.5rem;
+}
+
 nav-link a::before {
    display: block;
    content: attr(title);
@@ -21,6 +25,7 @@ nav-link a::before {
 
 .row {
    height: 100vh;
+   --bs-gutter-x: 0;
 }
 .col-sm-4, .col-sm-8 {
    height: 100%;
@@ -114,8 +119,8 @@ font-weight: 200;
 
 .contacts-container  {
    margin: 0 auto;
-   position: sticky;
-   top: 92%;
+   position: absolute;
+   bottom: 2%;
 }
 
 .p-2:hover {
@@ -182,7 +187,6 @@ font-weight: 200;
 
    .row .col-sm-8 {
       width: 80%;
-      border: 2px solid green;
    }
    
    .navbar {

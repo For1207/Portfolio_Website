@@ -2,15 +2,25 @@ body {
    background-image: url(../images/background2.jpg);
 }
 
+.row {
+   height: 100%;
+}
+
 
 .rounded-circle:hover {
    border: 2px solid rgb(240, 188, 104);
    transition: 0.5s;
 }
 
+.col-sm-4, .col-sm-8 {
+   position: relative;
+   display: block;
+   height: auto;
+}
 
 .col-sm-8 {
    margin: 0 auto;
+   display: block;
 }
 
 .row .col-sm-12 {
