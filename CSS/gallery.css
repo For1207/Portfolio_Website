@@ -1,0 +1,66 @@
+
+h1, h4 {
+   text-align: center;
+   font-weight: 200;
+   margin: 0;
+}
+
+h1 {
+   margin-top: 3rem;
+   text-transform: uppercase;
+}
+
+h4 {
+   margin-bottom: 1.5rem;
+}
+
+.cont {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 65%;
+   margin: 0 auto;
+   margin-bottom: 1rem;
+}
+
+
+.one, .two, .three, .four {
+   position: relative;
+   width: 35%;
+   margin: 1rem;
+   min-width: 354px;
+   border: 1px solid rgb(192, 192, 192);
+   box-shadow: 1px 1px 5px 2px rgb(192, 192, 192);
+}
+
+a {
+   color: rgb(0, 0, 0);
+}
+
+a:visited {
+   color:rgb(0, 0, 0);
+}
+
+img {
+   max-width: 100%;
+}
+
+h5 {
+   position: absolute;
+   /* background-color: rgba(255, 255, 255, 0.45); */
+   background-color: rgba(250, 235, 215, 0.75);
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 200;
+   top: 25%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: inline-block;
+   width: 50%;
+   padding: 5% 4%;
+   
+}
+
+
+
+
