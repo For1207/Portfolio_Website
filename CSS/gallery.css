@@ -28,7 +28,7 @@ h4 {
    position: relative;
    width: 35%;
    margin: 1rem;
-   min-width: 354px;
+   min-width: 250px;
    border: 1px solid rgb(192, 192, 192);
    box-shadow: 1px 1px 5px 2px rgb(192, 192, 192);
 }
@@ -59,6 +59,26 @@ h5 {
    padding: 5% 4%;
    
 }
+
+@media screen and (max-width: 1200px) {
+   .cont {
+      width: 75%;
+   }
+}
+
+@media screen and (max-width: 960px) {
+   .cont {
+      width: 80%;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .cont {
+      width: 85%;
+   }
+}
+
+
 
 
 
