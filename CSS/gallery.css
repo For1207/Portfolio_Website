@@ -64,17 +64,29 @@ h5 {
    .cont {
       width: 75%;
    }
+
+   h5 {
+      font-size: 1.15rem;
+   }
 }
 
 @media screen and (max-width: 960px) {
    .cont {
       width: 80%;
    }
+
+   h5 {
+      font-size: 1.1rem;
+   }
 }
 
 @media screen and (max-width: 768px) {
    .cont {
       width: 85%;
+   }
+
+   h5 {
+      font-size: 1.05rem;
    }
 }
 

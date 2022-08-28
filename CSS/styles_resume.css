@@ -2,6 +2,7 @@ body {
    background-image: none;
    background-color: rgb(208, 208, 208);
    font-family: "Work Sans", Arial, sans-serif;
+   min-width: 300px;
 }
 
 
@@ -47,6 +48,10 @@ h2 {
    padding-bottom: 1.6rem;
 }
 
+li {
+   display: inline-block;
+}
+
 .col-sm-2 {
    width: 20%;
 }
@@ -58,6 +63,9 @@ h2 {
    width: 80%;
 }
 
+.row .header {
+   text-align: justify ;
+}
 .intro {
    text-indent: 3rem;
    line-height: 1.6rem;
@@ -74,6 +82,7 @@ ul {
    list-style-type: none;
    font-weight: 200;
    line-height: 1.6rem;
+   padding-left: 1rem;
 }
 
 ul a {
@@ -146,7 +155,14 @@ span {
    margin-top: 4rem;
 }
 
+.resume-download {
+   display: flex;
+   justify-content: center;
+}
 
+a {
+   margin-top: 3%;
+}
 
 a img {
    float: right;
@@ -169,7 +185,7 @@ a img:active {
 
 @media screen and (max-width: 1600px) {
    .col-sm-8 {
-      width: 80%;
+      width: 85%;
    }
    
 }
@@ -181,18 +197,46 @@ a img:active {
 }
 
 @media screen and (max-width: 1200px) {
-   .col-sm-8 {
-      width: 95%;
-   };
-}
+   .container {
+      max-width: 1000px;
+   }
 
-@media screen and (max-width: 1100px) {
    .col-sm-2 {
       width: 100%;
    }
-   
+
+   .col-sm-3 {
+      width: 100%;
+   }
+
+   .col-sm-7 {
+      width: 100%;
+   }
+
+   .col-sm-10 {
+      width: 100%;
+   }
    .mx-auto {
       margin-bottom: 2rem;
+   }
+
+   .place-and-time {
+      margin-bottom: 0;
+   }
+
+   span {
+      padding: 1%;
+   }
+   br {
+      display: none;
+   }
+   ul {
+      width: 100%;
+   }
+   li {
+      width: 33%;
+      margin: 0 auto;
+   }
 }
 
 @media screen and (max-width: 768px) {
@@ -208,5 +252,9 @@ a img:active {
 
    .mx-auto {
       margin-bottom: 2rem;
+   }
+
+   li {
+      width: 100%;
    }
 }
