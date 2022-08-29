@@ -35,6 +35,8 @@ nav-link a::before {
 }
 .col-sm-4 {
    background-color: rgba(3, 51, 74, 0.8);
+   background-color: #03334acc;
+
    width: 15%; 
 }
 
