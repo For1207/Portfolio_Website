@@ -49,7 +49,7 @@ h2 {
 }
 
 li {
-   display: inline-block;
+   /* display: inline-block; */
 }
 
 .col-sm-2 {
@@ -78,7 +78,8 @@ li {
 }
 
 ul {
-   border-left: 1px solid rgb(192, 192, 192);
+   /* border-left: 1px solid rgb(192, 192, 192); */
+   list-style: circle;
    font-weight: 200;
    line-height: 1.6rem;
    padding-left: 1rem;
