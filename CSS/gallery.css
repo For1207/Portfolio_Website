@@ -75,7 +75,12 @@ h5 {
 
 @media screen and (max-width: 960px) {
    .cont {
-      width: 80%;
+      width: 70%;
+   }
+
+   .one, .two, .three, .four {
+      width: 55%;
+      margin-bottom: 2rem;
    }
 
    h5 {
@@ -86,6 +91,11 @@ h5 {
 @media screen and (max-width: 768px) {
    .cont {
       width: 85%;
+   }
+
+   .one, .two, .three, .four {
+      width: 75%;
+      margin-bottom: 2rem;
    }
 
    h5 {
