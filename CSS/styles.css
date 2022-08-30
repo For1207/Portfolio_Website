@@ -6,7 +6,7 @@ body {
    background-image: url(../images/background5.jpg);
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size:cover;
 }
 
 .nav-link {
@@ -22,17 +22,18 @@ nav-link a::before {
    visibility: hidden;
 }
 
-
 .row {
    height: 100vh;
    --bs-gutter-x: 0;
 }
+
 .col-sm-4, .col-sm-8 {
    height: 100%;
    position: relative;
    display: flex;
    justify-content: center;
 }
+
 .col-sm-4 {
    background-color: rgba(3, 51, 74, 0.8);
    background-color: #03334acc;
@@ -120,9 +121,10 @@ font-weight: 200;
 }
 
 .contacts-container  {
-   margin: 0 auto;
    position: absolute;
    bottom: 2%;
+   width: 100%;
+   text-align: center;
 }
 
 .p-2:hover {
@@ -135,12 +137,12 @@ font-weight: 200;
 
 
 .text-container, .menu-container {
-   width: 30rem;
    position: absolute;
    margin: 0 auto;
 }
 
 .text-container{
+   width: 26rem;
    background-color: rgba(128, 128, 128, 0.5);
    top: 12.5%;
    padding: 2rem;
@@ -148,6 +150,7 @@ font-weight: 200;
 }
 
 .menu-container {
+   width: 20rem;
    background-color: rgba(255, 255, 255, 0.75);
    top: 65%;
    margin-bottom: 2rem;
@@ -155,12 +158,14 @@ font-weight: 200;
 
 .menu-container .nav {
    display: block;
+   text-align: center;
 }
 
 .menu-container .nav-link {
    color: rgba(0, 0, 0, 0.65);
    font-size: 1.3rem;
-   padding-left: 2rem;
+   margin: 0.4rem;
+   text-align: center;
 }
 
 .menu-container .nav-link:hover {
@@ -177,7 +182,7 @@ font-weight: 200;
 }
 
 .emphasize {
-   color: rgb(168, 10, 10);
+   color: rgb(141, 63, 27);
    font-weight: 400;
 }
 
@@ -185,8 +190,6 @@ font-weight: 200;
    color: rgb(141, 63, 27);
    text-transform: uppercase;
 }
-
-
 
 @media screen and (max-width: 1024px) {
    .col-sm-4 {
@@ -196,7 +199,7 @@ font-weight: 200;
    .row .col-sm-8 {
       width: 80%;
    }
-   
+
    .navbar {
       background-color: rgba(3, 51, 74, 0.8);
       padding: 1.75rem 0;
@@ -225,9 +228,6 @@ font-weight: 200;
    }
 }
 
-
-
-
 @media screen and (max-width: 780px) {
    .navbar .nav-item {
       flex: none;
@@ -248,10 +248,7 @@ font-weight: 200;
       margin: 0 auto;
       height: 100%;
    }
-   
-
 }
-
 
    @media screen and (max-width: 576px) {
       .d-sm-block {
@@ -275,7 +272,3 @@ font-weight: 200;
       text-align: center;
    }
 }
-
-
-
-
