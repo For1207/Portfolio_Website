@@ -3,10 +3,6 @@
 body {
    color: #FCFFF5;
    font-family: "Open Sans", Arial, sans-serif;
-   background-image: url(../images/background5.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
 }
 
 .nav-link {
@@ -24,14 +20,15 @@ nav-link a::before {
 
 .row {
    height: 100vh;
+   background-image: url(../images/background5.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
    --bs-gutter-x: 0;
-   overflow: auto;
 }
 
 .col-sm-4, .col-sm-8 {
    height: 100%;
-   display: flex;
-   justify-content: center;
    position: relative;
 }
 
@@ -42,6 +39,8 @@ nav-link a::before {
 }
 
 .col-sm-8 {
+   display: flex;
+   justify-content: center;
    width: 85%;
 }
 
@@ -125,11 +124,11 @@ font-weight: 200;
 }
 
 .contacts-container  {
+   width: 100%;
    position: absolute;
    text-align: center;
-   bottom: 3%;
+   bottom: 0.75%;
    margin-bottom: 1rem;
-
 }
 
 .p-2:hover {
