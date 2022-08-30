@@ -77,11 +77,11 @@ font-weight: 200;
 
 #hero-name-h1 {
    margin-top: 1.5rem;
-   font-size: 1.65vh;
+   font-size: 1.65rem;
 }
 
 #hero-name-h2 {
-   font-size: 1.15vh;
+   font-size: 1rem;
 }
 
 .two-columns{
@@ -191,6 +191,20 @@ font-weight: 200;
    text-transform: uppercase;
 }
 
+@media screen and (max-width: 1350px) {
+   #hero-name-h1 {
+      font-size: 1.5rem;
+   }
+   .col-sm-4 {
+      width: 25%;
+   }
+   .col-sm-8 {
+      width: 75%;
+   }
+
+
+
+
 @media screen and (max-width: 1024px) {
    .col-sm-4 {
       width: 20%;
@@ -228,6 +242,16 @@ font-weight: 200;
    }
 }
 
+@media screen and (max-width: 900px) and (orientation: landscape) {
+   .row {
+      height: 800px;
+   }
+   .col-sm-8 {
+      margin: 0 auto;
+      height: 100%;
+   }
+}
+
 @media screen and (max-width: 780px) {
    .navbar .nav-item {
       flex: none;
@@ -240,15 +264,6 @@ font-weight: 200;
    }
 }
 
-@media screen and (max-width: 900px) and (orientation: landscape) {
-   .row {
-      height: 800px;
-   }
-   .col-sm-8 {
-      margin: 0 auto;
-      height: 100%;
-   }
-}
 
    @media screen and (max-width: 576px) {
       .d-sm-block {
