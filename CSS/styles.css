@@ -3,7 +3,6 @@
 body {
    color: #FCFFF5;
    font-family: "Open Sans", Arial, sans-serif;
-   border: 3px solid blue;
    height: 100vh;
 }
 
@@ -27,11 +26,9 @@ nav-link a::before {
    background-repeat: no-repeat;
    background-size: cover;
    --bs-gutter-x: 0;
-   border: 3px solid red;
 }
 
 .col-sm-4, .col-sm-8 {
-   height: 100%;
    position: relative;
 }
 
@@ -141,7 +138,9 @@ font-weight: 200;
    background-color: rgba(240, 188, 104, 0.5);
 }
 
-
+#col-content {
+   width: 50%;
+}
 .text-container, .menu-container {
    position: absolute;
    margin: 0 auto;
@@ -153,12 +152,15 @@ font-weight: 200;
    top: 12.5%;
    padding: 2rem;
    text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
+   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+
 }
 
 .menu-container {
    width: 20rem;
    background-color: rgba(255, 255, 255, 0.75);
-   bottom: 3%;
+   bottom: 12.5%;
+   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.4);
 }
 
 .menu-container .nav {
@@ -206,6 +208,8 @@ font-weight: 200;
    .col-sm-8 {
       width: 75%;
    }
+
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -240,6 +244,10 @@ font-weight: 200;
    .col-sm-8 .navbar-expand-sm .nav-item {
       padding: 0.5rem;
    }
+
+   #col-content {
+      width: 75%;
+   }
 }
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
@@ -249,6 +257,10 @@ font-weight: 200;
    .col-sm-8 {
       margin: 0 auto;
       height: 100%;
+   }
+
+   #col-content {
+      width: 100%;
    }
 }
 
@@ -262,6 +274,11 @@ font-weight: 200;
    .col-sm-8 {
       margin: 0 auto;
    }
+
+   #col-content {
+      width: 100%;
+   }
+
 }
 
 
