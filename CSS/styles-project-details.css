@@ -1,10 +1,17 @@
-body {
-   background-image: url(../images/portfolio_background_XXL.jpg);
 
+body {
+   /* background-image: url(../images/portfolio_background_XXL.jpg); */
+   background: url(../images/portfolio_background_XXL.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .row {
    --bs-gutter-x: 0rem;
+   background-image: none;
+   height: auto;
 }
 
 .project-details-header {

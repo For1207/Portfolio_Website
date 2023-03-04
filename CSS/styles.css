@@ -4,6 +4,11 @@ body {
    color: #FCFFF5;
    font-family: "Open Sans", Arial, sans-serif;
    /* height: 100vh; */
+   background: url(../images/background5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .nav-link {
@@ -21,10 +26,10 @@ nav-link a::before {
 
 .row {
    height: 100vh;
-   background-image: url(../images/background5.jpg);
+   /* background-image: url(../images/background5.jpg);
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
    --bs-gutter-x: 0;
 }
 
