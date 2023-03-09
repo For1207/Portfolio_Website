@@ -16,9 +16,7 @@ img {
 
 .gallery-container {
   width: 90%;
-  /* border: 1px solid green; */
   display: flex;
-  /* background-color: darkgrey; */
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
