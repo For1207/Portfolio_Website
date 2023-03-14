@@ -87,6 +87,10 @@
    background-color: transparent;
 }
 
+h1 {
+   color: red;
+}
+
 @media screen and (max-width: 1600px) {
    .about-me-header, .about-me-text, .skills {
       width: 60%;
