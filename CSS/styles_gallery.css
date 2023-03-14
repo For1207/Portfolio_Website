@@ -45,3 +45,8 @@ h1 {
 .three h2 {
   left: 75%;
 }
+
+/* accessibility styles */
+.carousel-control-next-icon {
+  color: orange;
+}
