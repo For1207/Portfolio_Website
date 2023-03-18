@@ -34,3 +34,9 @@ h3 {
 #circle_pano img {
    max-height: 100vh;
 }
+
+@media (orientation: portrait) {
+   .carousel-caption {
+      display: none;
+   }
+}
