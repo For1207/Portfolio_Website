@@ -1,7 +1,6 @@
 
 body {
-   /* background-image: url(../images/portfolio_background_XXL.jpg); */
-   background: url(../images/portfolio_background_XXL.jpg) no-repeat center center fixed; 
+   background: url(../images/portfolio_background_XXL.webp) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -126,8 +125,8 @@ a  {
 }
 
 
-@media screen and (max-width: 1600px) {
-}
+/* @media screen and (max-width: 1600px) {
+} */
 
 @media screen and (max-width: 1320px) {
    .project-details-header, .project-details-body {

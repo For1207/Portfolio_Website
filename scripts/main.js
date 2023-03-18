@@ -32,6 +32,5 @@ function showLess() {
    firstArticle.style.paddingBottom= "5rem";
    firstArticle.style.backgroundColor="rgba(255, 255, 255, 0.85)";
    firstArticle.style.border="none";
-
-
 }
+
