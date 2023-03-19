@@ -19,10 +19,6 @@ a.nav-link {
    text-align: center;
 }
 
-.d-flex {
-margin-top: 25%;
-}
-
 .p-2 {
 width: 55%;
 margin: auto;
@@ -33,6 +29,7 @@ margin-bottom: 3%                ;
 
 img {
 box-shadow: 2px 2px 15px 2px rgb(192, 192, 192);
+width: 40%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -65,8 +62,7 @@ box-shadow: 2px 2px 15px 2px rgb(192, 192, 192);
       display: block!important;
    }
    .d-flex {
-      min-height: 75%;
-      margin-top: 25%;
+      margin-top: 10%;
       }
    }
 
