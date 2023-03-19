@@ -64,7 +64,7 @@ width: 28%;
 }
 
 
-   @media screen and (min-width: 350px) {
+   @media screen and (min-width: 300px) {
       .d-sm-block {
       display: block!important;
    }
