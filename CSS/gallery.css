@@ -110,6 +110,12 @@ h5 {
 }
 
 
+@media (orientation: landscape) {
+   .one, .two, .three, .four {
+     width: 40%;
+   }
+ }
+
 
 
 

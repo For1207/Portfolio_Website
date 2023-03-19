@@ -4,14 +4,13 @@
   box-sizing: border-box;
 }
 
-.one, .two ,.three {
+.one, .two ,.three, .four {
   width: 30%;
 }
 
 img {
   width: 100%;
   min-width: 400px;
-  /* border: 1px solid red; */
 }
 
 .gallery-container {
