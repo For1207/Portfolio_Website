@@ -12,6 +12,7 @@ body {
 .col-sm-8, .col-sm-4 {
    display: flex;
    position: relative;
+   min-height: 100vh;
 }
 
 .about-me-header {
@@ -52,6 +53,11 @@ body {
 .rounded-circle:hover {
    border: 2px solid rgb(240, 188, 104);
    transition: 0.5s;
+}
+
+a {
+   text-decoration: none;
+   color: rgb(14, 50, 143);
 }
 
 .about-me-text {
