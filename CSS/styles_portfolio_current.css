@@ -175,9 +175,9 @@ span.cursive {
   
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 520px) {
   .raw {
-    min-width: 425px;
+    min-width: 520px;
   }
   
   .content {

@@ -226,8 +226,8 @@ ul a {
 
 }
 
-/* Mobile styles - 490px */
-@media screen and (max-width: 490px) {
+/* Mobile styles - 520px */
+@media screen and (max-width: 520px) {
   .hero {
     display: none;
   }
