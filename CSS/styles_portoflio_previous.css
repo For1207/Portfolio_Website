@@ -1,0 +1,173 @@
+:root {
+  --pure-white: rgb(255, 255, 255);
+  --light-gray-text: rgb(204, 204, 204);
+  --blue-bgn: hsla(199, 92%, 15%, 0.8);
+}
+
+.projects {
+  flex-wrap: wrap;
+  row-gap: 3rem;
+}
+
+
+.old-prj-container, .info-popup-text {
+  min-width: 45%;
+  width: 45%;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 20px 0 rgba(0,0,0,0.75);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.current-prj, .overlay {
+  border-radius: 1rem 1rem 0  0;
+}
+
+
+.current-prj {
+  width: 100%;
+  height: auto;
+  box-shadow: none;
+}
+
+.prj-description {
+  padding: 1rem 2rem 1rem;
+  background-color: var(--blue-bgn);
+  border-radius: 0 0  1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  color: var(--light-gray-text);
+  font-weight: 300;
+  width: 90%;
+}
+
+.info-container  {
+  width: 10%;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+}
+
+.info-container:hover {
+  border: 2px solid  hsl(6, 73%, 71%);
+  transition: 0.3s ease-in-out;
+}
+
+/* Info pop-up window styles */
+
+
+ .info-popup-text {
+  visibility: hidden;
+  width: 22rem;
+  background-color: var(--pure-white);
+  color: var(--blue-bgn);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: absolute;
+  right: 3rem;
+  bottom: -0.5rem;
+  text-indent: 1rem;
+  text-align: justify;
+}
+
+
+.info-popup-text a {
+  color: var(--blue-bgn);
+  font-size: 0.9rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+span {
+  font-weight: 400;
+}
+
+span.cursive {
+  font-style: italic;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+/* Tablet styles */
+@media  screen and (max-width: 1024px) {
+  .projects {
+    width: 96%;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    margin: 6rem auto 0;
+    padding: 2rem;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width:768px) {
+  .content {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .projects {
+    margin: 3rem auto 0;
+    padding: 2rem;
+  }
+
+  .old-prj-container {
+    width: 75%;
+    margin: 0 auto 1rem;
+  }
+  
+}
+
+@media screen and (max-width: 425px) {
+  .raw {
+    min-width: 425px;
+  }
+  
+  .content {
+    margin-top: 2rem;
+  }
+
+  .projects {
+    padding: 1rem;
+  }
+  
+  .old-prj-container {
+    width: 90%;
+    margin: 0 auto 2rem;
+  }
+
+  p {
+    width: 88%;
+  }
+
+  .info-container {
+    width: 12%;
+  }
+  
+  .get-in-touch {
+    position: static;
+  } 
+  
+}
+
+
+
+
+
+
