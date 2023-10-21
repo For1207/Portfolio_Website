@@ -212,16 +212,22 @@ ul a {
   }
 
   .projects {
-    display: block;
+    padding: 2rem;
+    row-gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .old-prj img {
-    margin-top: 2rem;
-  } 
+  .current-prj, .old-prj {
+    min-width: 75%;
+    width: 75%;
+    margin: 0 auto;
+  }
+
 }
 
-/* Mobile styles - 425px */
-@media screen and (max-width: 425px) {
+/* Mobile styles - 490px */
+@media screen and (max-width: 490px) {
   .hero {
     display: none;
   }
