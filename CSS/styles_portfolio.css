@@ -237,6 +237,10 @@ ul a {
     min-height: 100vh;
   }
 
+  .nav {
+    padding: 0;
+  }
+
   .nav, .content {
     width: 100%;
   }
@@ -260,6 +264,8 @@ ul a {
     margin: auto 0;
   }
 
+
+
   .content {
     margin-top: 2rem;
   }
@@ -271,10 +277,8 @@ ul a {
   }
 
   .get-in-touch {
-    position: absolute;
     bottom: 0;
     left: 0;
-    /* border: 2px solid red; */
     width: 100%;
     margin: 0;
     background-color: var(--blue-bgn);
