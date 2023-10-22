@@ -8,179 +8,96 @@
       <meta name="description" content="Front-End end web developer portfolio">
       <meta name="keywords" content="HTML, CSS, JavaScript, Java, Front End, Web design, Software development">
       <meta name="author" content="Igor Mykhalchuk">
-
-      <title>Igor Mykhalchuk | About Me</title>
-      <link rel="icon" type="image/x-icon" href="./images/favicon.png">
-      <link href="./bootstrap/bootstrap.min.css" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="./CSS/styles.css">
+      <title>Igor Mykhalchuk | Portfolio</title>
+      <link rel="icon" type="image/x-icon" href="../images/favicon.png">
       <link rel="stylesheet" href="./CSS/styles_about_me.css">
-      <script src="./bootstrap/bootsrtap.bundle.min.js" async></script>
    </head>
-      <body>
-         <div class="container-fluid">
-            <nav class="navbar navbar-expand-sm justify-content-center d-none d-sm-block d-md-none d-lg-none">
-               <ul class="navbar-nav justify-content-center">
-                  <li class="nav-item">
-                     <a class="nav-link" href="index.html">Main</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="resume.html">Resume</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="gallery.html">Gallery</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="contacts.html">Contacts</a>
-                  </li>
-
-               </ul>
-            </nav>
-         </div>
+   <body>
       <div class="row">
-         <div class="col-sm-4 d-none d-sm-none d-md-block d-lg-block">
-            <a  data-bs-toggle="tooltip" title="Click to go Home" href="index.html">
-               <img src="images/Igor_portfolio-photo.webp" class="rounded-circle mx-auto d-block" alt="Igor Mykhalchuk photo">
-            </a>
-            <h1 id="hero-name-h1">Igor Mykhalchuk</h1>
-            <h2 id="hero-name-h2">Front-End Developer</h2>
-            <!-- Navbar menu for screens more 1000px -->
-            <ul class="nav flex-column two-columns">
-               <li class="nav-item">
-                 <a class="nav-link" href="about_me.html">About Me</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="portfolio.html">Portfolio</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="resume.html">Resume</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="gallery.html">Gallery</a>
-               </li>
-             </ul>
-            <div class="contacts-container">
-               <h6>Get in Touch</h6>
-               <div class="d-flex flex-wrap justify-content-center">
-                  <div class="p-2">
-                     <a href="mailto:fewdsearch@gmail.com"><img src="./images/icons/icons8-mail-100.png" alt="email icon"></a>
-                  </div>
-                  <div class="p-2">
-                     <a href="tel:+1(727)-314-3531"><img src="./images/icons/icons8-phone-100.png" alt="phone icon"></a>
-                  </div>
-                  <div class="p-2">
-                     <a href="https://www.linkedin.com/in/imykh/"><img src="./images/icons/icons8-linkedin-100.png" alt="linkedin icon"></a>
-                  </div>
-                  <div class="p-2">
-                     <a href="https://github.com/For1207"><img src="./images/icons/icons8-github-100.png" alt="github icon"></a>
-                  </div>
-                  <div class="p-2">
-                     <a href="https://www.facebook.com/profile.php?id=100014610062734"><img src="./images/icons/icons8-facebook-100.png" alt="facebook icon"></a>
-                  </div>
+         <div class="nav">
+            <div class="hero">
+               <div class="hero-img">
+                  <a href="./index.html">
+                     <img src="./images/Igor_portfolio-photo.webp" alt="hero portrait">
+                  </a>
+               </div>
+               <div class="hero-title">
+                  <h2>Igor Mykhalchuk</h2>
+                  <h3>Web Developer</h3>
                </div>
             </div>
-         </div>
-            <div class="col-sm-8 ">
-               <!-- Navbar for screens less than 1000px -->
-               <nav class="navbar navbar-expand-sm justify-content-center">
-                  <ul class="navbar-nav">
-                     <li class="nav-item">
-                        <a class="nav-link" href="about_me.html">About me</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="resume.html">Resume</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contacts.html">Contacts</a>
-                     </li>
-                  </ul>
-               </nav>
-               <div class="page-main-content">
-                  <div class="about-me-header">
-                     <h1>ABOUT ME</h1>
-                     <h2>You guessed it right! <br> I want to give myself a fresh  start as a web developer and this website is my portfolio. 
-                        I have created it to demonstrate my knowledge and skills.
-                     </h2>
-                  </div>
-                  <div class="about-me-text">
-                     <p>
-                        I am an <span class="emphasize">ambitious front-end web developer</span> with a solid foundation that will allow me to progress quickly. My previous experience in business will contribute to project work and client relationships. <span class="emphasize">Diligence, high intelligence</span>, and <span class="emphasize">friendly attitude</span> toward people will make me a reliable member of my new team.
-                     </p>
-                     <p>
-                        I was a <span class="emphasize">successful executive</span> for many years and dealt with computer technology from a managerial point of view. I have always been distinguished by an impeccable <span class="emphasize">business reputation</span>, <span class="emphasize">independent thinking</span>, the ability to <span class="emphasize">analyze information</span> and <span class="emphasize">implement results</span> into business processes.
-                     </p>
-                     <p>
-                        My life changed drastically when my family moved to a new country. I took it not only as a challenge but also as an opportunity. Not afraid to start all over again, I got the chance to embody myself where I am strongest.
-                     </p>
-                     <p>
-                        <span class="emphasize">Why did I decide to become a web developer?</span> 
-                     </p>
-                     <p>
-                        Firstly, I like to see how a <span class="emphasize">problem</span> that initially seems to be a formless lump reveals logical relationships, then <span class="emphasize">becomes a system</span> and <span class="emphasize">transforms into code</span>, and finally is <span class="emphasize">born on the screen</span>. I always get aesthetic pleasure when I come across a good website.
-                     </p>
-                     <p>
-                        Secondly, having extensive experience in business, I clearly understand my strengths and weaknesses. My intuition tells me that the web developer profession is where I will be <span class="emphasize">valuable to the company</span> and <span class="emphasize">thriving</span> as a <span class="emphasize">professional</span> for many years.
-                     </p>
-                     <p>
-                        And now, I am proud to share my first achievement in a new profession - graduating from Wilmington University and receiving a <span class="emphasize">bachelor's degree</span> in <span class="emphasize">computer science</span> with Summa Cum Laude honorary title. In addition, I am gaining additional practice by studying the "Front-End Engineer" course at <a href="https://www.codecademy.com/">Codecademy</a>.
-                     </p>
-                     <p>
-                        It means that an exciting journey is waiting for me, and my motivation and hard work give me confidence that <span class="em">I will achieve my goals</span>.
-                     </p>
-                  </div>
-                  <div class="skills">
-                     <h1>Skills</h1>
-                     <div class="d-flex flex-wrap justify-content-center">
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-html-5-100.png" alt="html5 icon" data-bs-toggle="tooltip" title="HTML5">
-                        </div>
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-css3-100.png" alt="css3 icon" data-bs-toggle="tooltip" title="CSS3">
-                        </div>
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-javascript-100.png" alt="javascript icon" data-bs-toggle="tooltip" title="Javascript">
-                        </div>
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-java-100.png" alt="java icon"data-bs-toggle="tooltip" title="Java">
-                        </div>
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-bootstrap-100.png" alt="bootstrap icon" data-bs-toggle="tooltip" title="Bootstrap">
-                        </div>
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-react-native-100.png" alt="react icon"data-bs-toggle="tooltip" title="React">
-                        </div>
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-sql-100.png" alt="SQL icon" data-bs-toggle="tooltip" title="SQL">
-                        </div>
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-php-100.png" alt="PHP icon" data-bs-toggle="tooltip" title="PHP">
-                        </div>
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-git-100.png" alt="Git icon" data-bs-toggle="tooltip" title="Git">
-                        </div>
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-adobe-photoshop-100.png" alt="Photoshop icon" data-bs-toggle="tooltip" title="Adobe Photoshop">
-                        </div>
-                        <div class="p-2">
-                           <img src="./images/icons/icons8-adobe-lightroom-100.png" alt="Lightroom icon" data-bs-toggle="tooltip" title="Adobe Lightroom">
-                        </div>
-                     </div>
-                  </div>
-               </div>
+            <ul class="nav-items">
+               <a href="index.html"><li>Home</li></a>
+               <a href="portfolio.html"><li>Portfolio</li></a>
+               <a href="resume.html"><li>Resume</li></a>
+               <a href="gallery.html"><li>Gallery</li></a>
+            </ul>
+            <div class="get-in-touch">
+               <a href="mailto:mykhigo@gmail.com">
+                  <img src="./images/icons/icons8-mail-100.png" alt="email icon">
+               </a>
+               <a href="tel:+17273143531">
+                  <img src="./images/icons/icons8-phone-100.png" alt="phone icon">
+               </a>
+               <a href="https://www.linkedin.com/in/imykh/" target="_blank">
+                  <img src="./images/icons/icons8-linkedin-100.png" alt="LinkedIn icon">
+               </a>
+               <a href="https://github.com/For1207/" target="_blank">
+                  <img src="./images/icons/icons8-github-100.png" alt="GitHub icon">
+               </a>
+               <a href="https://www.facebook.com/profile.php?id=100014610062734" target="_blank">
+                  <img src="./images/icons/icons8-facebook-100.png" alt="facebook icon">
+               </a>
             </div>
          </div>
+         <div class="content">
+            <div class="content-title">
+              <h1>About Me</h1>
+              <h2>You guessed it right! <br> I want to give myself a fresh  start as a web developer and this website is my portfolio. 
+                I have created it to demonstrate my knowledge and skills</h2>
+              </div>
+            <div class="projects">
+              <p>
+                I am an <span class="emphasize">ambitious front-end web developer</span> with a solid foundation that will allow me to progress quickly. My previous experience in business will contribute to project work and client relationships. <span class="emphasize">Diligence, high intelligence</span>, and <span class="emphasize">friendly attitude</span> toward people will make me a reliable member of my new team.
+             </p>
+             <p>
+                I was a <span class="emphasize">successful executive</span> for many years and dealt with computer technology from a managerial point of view. I have always been distinguished by an impeccable <span class="emphasize">business reputation</span>, <span class="emphasize">independent thinking</span>, the ability to <span class="emphasize">analyze information</span> and <span class="emphasize">implement results</span> into business processes.
+             </p>
+             <p>
+                My life changed drastically when my family moved to a new country. I took it not only as a challenge but also as an opportunity. Not afraid to start all over again, I got the chance to embody myself where I am strongest.
+             </p>
+             <p>
+                <span class="emphasize">Why did I decide to become a web developer?</span> 
+             </p>
+             <p>
+                Firstly, I like to see how a <span class="emphasize">problem</span> that initially seems to be a formless lump reveals logical relationships, then <span class="emphasize">becomes a system</span> and <span class="emphasize">transforms into code</span>, and finally is <span class="emphasize">born on the screen</span>. I always get aesthetic pleasure when I come across a good website.
+             </p>
+             <p>
+                Secondly, having extensive experience in business, I clearly understand my strengths and weaknesses. My intuition tells me that the web developer profession is where I will be <span class="emphasize">valuable to the company</span> and <span class="emphasize">thriving</span> as a <span class="emphasize">professional</span> for many years.
+             </p>
+             <p>
+                And now, I am proud to share my first achievement in a new profession - graduating from Wilmington University and receiving a <span class="emphasize">bachelor's degree</span> in <span class="emphasize">computer science</span> with Summa Cum Laude title. In addition, I am gaining additional practice by studying the "Front-End Engineer" course at <a href="https://www.codecademy.com/">Codecademy</a>.
+             </p>
+             <p>
+                It means that an exciting journey is waiting for me, and my motivation and hard work give me confidence that <span class="em">I will achieve my goals</span>.
+             </p>
+            </div>
+
+            <div class="skills">
+               <img src="./images/icons/icons8-html-5-100.png" alt="html5 icon">
+               <img src="./images/icons/icons8-css3-100.png" alt="css3 icon">
+               <img src="./images/icons/icons8-javascript-100.png" alt="javascript icon">
+               <img src="./images/icons/icons8-java-100.png" alt="java icon">
+               <img src="./images/icons/icons8-bootstrap-100.png" alt="bootstrap icon">
+               <img src="./images/icons/icons8-sql-100.png" alt="SQL icon">
+               <img src="./images/icons/icons8-php-100.png" alt="PHP icon">
+               <img src="./images/icons/icons8-git-100.png" alt="Git icon">
+               <img src="./images/icons/icons8-adobe-photoshop-100.png" alt="Photoshop icon">
+               <img src="./images/icons/icons8-adobe-lightroom-100.png" alt="Lightroom icon">
+            </div>
+         </div>
+
+
+      </div>
    </body>
 </html>

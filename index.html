@@ -8,103 +8,87 @@
       <meta name="description" content="Front-End end web developer portfolio">
       <meta name="keywords" content="HTML, CSS, JavaScript, Java, Front End, Web design, Software development">
       <meta name="author" content="Igor Mykhalchuk">
-
-      <title>Igor Mykhalchuk | Front-End Engineer</title>
-      <link rel="icon" type="image/x-icon" href="./images/favicon.png">
-      <link href="./bootstrap/bootstrap.min.css" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="CSS/styles.css">
-      <script src="./bootstrap/bootsrtap.bundle.min.js" async></script>
+      <title>Igor Mykhalchuk | Portfolio</title>
+      <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+      <link rel="stylesheet" href="./CSS/styles.css">
    </head>
    <body>
-      <div class="container-fluid">
-         <nav class="navbar navbar-expand-sm justify-content-center d-none d-sm-block d-md-none d-lg-none">
-            <ul class="navbar-nav justify-content-center">
-               <li class="nav-item">
-                  <a class="nav-link" href="about_me.html">About me</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="resume.html">Resume</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="gallery.html">Gallery</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="contacts.html">Contacts</a>
-               </li>
-            </ul>
-         </nav>
-      </div>
       <div class="row">
-         <div class="col-sm-4 d-none d-sm-none d-md-block d-lg-block">
-            <img src="images/Igor_portfolio-photo.webp" class="rounded-circle mx-auto d-block" alt="Igor Mykhalchuk photo">
-               <h1 id="hero-name-h1">Igor Mykhalchuk</h1>
-               <h2 id="hero-name-h2">Web Developer</h2>
-            <!-- Navbar menu for screens more 1000px -->
-            <ul class="nav flex-column two-columns">
-               <li class="nav-item">
-                 <a class="nav-link" href="about_me.html">About Me</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="portfolio.html">Portfolio</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="resume.html">Resume</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="gallery.html">Gallery</a>
-               </li>
-             </ul>
-            <div class="contacts-container">
-               <h6>Get in Touch</h6>
-               <div class="d-flex flex-wrap">
-                  <div class="p-2">
-                     <a href="mailto:fewdsearch@gmail.com" ><img src="images/icons/icons8-mail-100.png" alt="email icon" ></a>
-                  </div>
-                  <div class="p-2">
-                     <a href="tel:+1(727)-314-3531"><img src="images/icons/icons8-phone-100.png" alt="phone icon"></a>
-                  </div>
-                  <div class="p-2">
-                     <a href="https://www.linkedin.com/in/imykh/"><img src="images/icons/icons8-linkedin-100.png" alt="linkedin icon"></a>
-                  </div>
-                  <div class="p-2">
-                     <a href="https://github.com/For1207"><img src="images/icons/icons8-github-100.png" alt="github icon" data-bs-toggle="tooltip"></a>
-                  </div>
-                  <div class="p-2">
-                     <a href="https://www.facebook.com/profile.php?id=100014610062734"><img src="images/icons/icons8-facebook-100.png" alt="facebook icon"></a>
-                  </div>
+         <div class="nav">
+            <div class="hero">
+               <div class="hero-img">
+                  <a href="./index.html">
+                     <img src="./images/Igor_portfolio-photo.webp" alt="hero portrait">
+                  </a>
+               </div>
+               <div class="hero-title">
+                  <h2>Igor Mykhalchuk</h2>
+                  <h3>Web Developer</h3>
                </div>
             </div>
-         </div>
-         <div class="col-sm-8">
-         <!-- Navbar for screens less than 1000px -->
-            <div class="text-container">
-               <h1>Hi, I'm Igor <span id="one-column">Mykhalchuk</span></h1>
-               <h2>a software engineer specialized in <br> <strong> web development</strong></h2>
+            <ul class="nav-items">
+               <a href="portfolio.html"><li>Porfolio</li></a>
+               <a href="about_me.html"><li>About Me</li></a>
+               <a href="resume.html"><li>Resume</li></a>
+               <a href="gallery.html"><li>Gallery</li></a>
+            </ul>
+            <div class="get-in-touch">
+               <a href="mailto:mykhigo@gmail.com">
+                  <img src="./images/icons/icons8-mail-100.png" alt="email icon">
+               </a>
+               <a href="tel:+17273143531">
+                  <img src="./images/icons/icons8-phone-100.png" alt="phone icon">
+               </a>
+               <a href="https://www.linkedin.com/in/imykh/" target="_blank">
+                  <img src="./images/icons/icons8-linkedin-100.png" alt="LinkedIn icon">
+               </a>
+               <a href="https://github.com/For1207/" target="_blank">
+                  <img src="./images/icons/icons8-github-100.png" alt="GitHub icon">
+               </a>
+               <a href="https://www.facebook.com/profile.php?id=100014610062734" target="_blank">
+                  <img src="./images/icons/icons8-facebook-100.png" alt="facebook icon">
+               </a>
             </div>
-            <div class="menu-container">
-               <ul class="nav">
-                  <li class="nav-item">
-                     <a class="nav-link" href="about_me.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="resume.html">Resume</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="gallery.html">Gallery</a>
-                  </li>
+         </div>
+         <div class="content">
+            <div class="content-title">
+              <h1>Hi! I'm Igor</h1>
+              <h2>A software engineer specialized in web development</h2>
+              </div>
+            <div class="projects">
 
-               </ul>
+              <a class="card" href="portfolio.html">
+                <h2>Portfolio</h2>
+                <img src="./images/projects_screenshots/home_page/portfolio.webp" alt="portfolio screenshot">
+                <div class="overlay">
+                   <img src="./images/icons/eye-icon.svg" alt="eye icon">
+                </div>
+              </a>
+
+              <a class="card" href="about_me.html">
+              <h2>About Me</h2>
+              <img src="./images/projects_screenshots/home_page/about_me.webp" alt="about me page screenshot">
+              <div class="overlay">
+                 <img src="./images/icons/eye-icon.svg" alt="eye icon">
+              </div>
+              </a>
+
+              <a class="card" href="resume.html">
+                <h2>Resume</h2>
+                <img src="./images/projects_screenshots/home_page/resume.webp" alt="resume page screenshot">
+                <div class="overlay">
+                   <img src="./images/icons/eye-icon.svg" alt="eye icon">
+                </div>
+              </a>
+  
+              <a class="card" href="gallery.html">
+                <h2>Gallery</h2>
+                <img src="./images/projects_screenshots/home_page/gallery.webp" alt="gallery page screenshot">
+                <div class="overlay">
+                  <img src="./images/icons/eye-icon.svg" alt="eye icon">
+                </div>
+              </a>
+              
             </div>
          </div>
       </div>
