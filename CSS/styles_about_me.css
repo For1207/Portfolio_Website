@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 :root {
-
   --blue-bgn: hsla(199, 92%, 15%, 0.8);
   --white-bgn: hsla(0, 0%, 100%, 0.8);
   --white-high-opac: hsla(0, 0%, 100%, 0.3);
   --pure-white: hsl(0, 0%, 100%);
   --dark-grey: rgb(92, 92, 92);
+  --accent-burgundy:  hsla(345, 68%, 30%, 0.85);
+  --light-blue: hsl(215, 48%, 89%);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
@@ -134,14 +135,24 @@ ul a {
 
 }
 .content-title {
-  padding: 0.85rem 2rem;
+  padding: 0.75rem 1.25rem 1.25rem;
   width: 65%;
   margin: 3rem auto 0;
   background-color: hsla(0, 0%, 100%, 0.7);
   box-shadow: 1px 1px 40px 0 rgba(0,0,0,0.75);
 }
 
-.content-title h1, .content-title h2, .skills h2 {
+.content h1 {
+  color: var(--accent-burgundy);
+}
+
+.content-title h2 {
+  margin-top: 2%;
+  font-size: clamp(1rem , 1vw, 1.2rem);
+}
+
+
+.content-title h2, .skills h2 {
   color: var(--dark-grey);
 }
 

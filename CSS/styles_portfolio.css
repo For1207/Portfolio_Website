@@ -5,6 +5,9 @@
   --white-bgn: hsla(0, 0%, 100%, 0.8);
   --white-high-opac: hsla(0, 0%, 100%, 0.3);
   --pure-white: hsl(0, 0%, 100%);
+  --dark-grey: rgb(92, 92, 92);
+  --accent-burgundy:  hsla(345, 68%, 30%, 0.85);
+  --light-blue: hsl(215, 48%, 89%);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
@@ -33,7 +36,6 @@ h1, h2, h3, ul {
   text-align: center;
   text-transform: uppercase;
   color: white;
-
 }
 
 .row {
@@ -133,7 +135,7 @@ ul a {
 }
 
 .content {
-  margin-top: 5rem;
+  margin-top: 3%;
 }
 
 .content h1, .projects h3 {
@@ -143,14 +145,16 @@ ul a {
   color: hsla(0, 0%, 30%);
   background-color: hsla(0, 0%, 100%, 0.7);
   box-shadow: 1px 1px 40px 0 rgba(0,0,0,0.75);
-
 }
 
+.content h1 {
+  color: var(--accent-burgundy);
+}
 
 .projects {
   display: flex;
   width: 90%;
-  margin: 9rem auto 0;
+  margin: 10% auto 0;
   justify-content: space-around;
   column-gap: 3rem;
   padding: 3rem;

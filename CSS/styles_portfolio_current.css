@@ -1,12 +1,13 @@
 :root {
-  --pure-white: rgb(255, 255, 255);
+  --azure-bgn: hsl(180, 100%, 97%);
+  --pure-white: rgba(255, 255, 255, 0.713);
   --light-gray-text: rgb(204, 204, 204);
+  --accent-burgundy:  hsla(345, 68%, 30%, 0.85);
   --blue-bgn: hsla(199, 92%, 15%, 0.8);
+  --light-blue: hsl(215, 48%, 89%);
 }
 
-.content {
-  margin-top: 4rem;
-}
+
 
 .projects {
   flex-wrap: wrap;
@@ -36,8 +37,6 @@
   text-decoration: underline;
 }
 
-.card {
-}
 
 .card, .info-popup-text {
   min-width: 20%;
@@ -141,7 +140,7 @@ span.cursive {
     width: 96%;
     row-gap: 1.5rem;
     column-gap: 1.5rem;
-    margin: 6rem auto 0;
+    margin: 6% auto 0;
     padding: 2rem;
   }
 
@@ -176,16 +175,37 @@ span.cursive {
 }
 
 @media screen and (max-width: 520px) {
-  .raw {
+  html {
     min-width: 520px;
+    background-color: var(--azure-bgn);
+  }
+
+  
+  .row {
+    background-image: none;
   }
   
   .content {
     margin-top: 2rem;
   }
 
+  .content h1 {
+    width: 90%;
+  }
+
   .projects {
     padding: 1rem;
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
+  }
+
+  .content h1, .projects h3 {
+    box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.75);
+  }
+
+  .projects h3 {
+    width: 100%;
+    margin: 0;
+    padding: 0.75rem 1rem;
   }
   
   .card {
