@@ -294,7 +294,6 @@ ul a {
 /* Mobile styles - 520px */
 @media screen and (max-width: 520px) {
   html {
-    min-width: 520px;
     background-color: var(--azure-bgn);
   }
 
