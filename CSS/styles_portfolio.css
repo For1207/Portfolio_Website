@@ -176,7 +176,7 @@ ul a {
   overflow: hidden;
   position: relative;
   display: flex;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 .projects a {
   text-decoration: none;
