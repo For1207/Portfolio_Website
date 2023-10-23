@@ -29,3 +29,39 @@ h3 {
    max-height: 100vh;
 }
 
+
+.carousel-caption {
+   padding: 0;
+   bottom: 4%;
+}
+
+.carousel-caption h3, .carousel-caption p{
+   margin-bottom: 3px;
+   padding: 0;
+}
+
+.carousel-caption h3 {
+   font-size: clamp(0.9rem, 1.4vw, 1.75rem);
+}
+
+.carousel-caption p {
+   font-size: clamp(0.7rem, 1.1vw, 1.25rem);
+   margin-bottom: 0.5rem;
+}
+
+.carousel-indicators {
+   margin-bottom: 1%;
+}
+
+@media only screen and (orientation: landscape) {
+   .carousel-caption h3 {
+      font-size: clamp(0.9rem, 1.4vw, 1.75rem);
+   }
+   
+   .carousel-caption p {
+      font-size: clamp(0.7rem, 1.1vw, 1.25rem);
+   }
+
+ 
+   }
+
