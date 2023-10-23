@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 :root {
-
+  --azure-bgn: hsl(180, 100%, 97%);
   --blue-bgn: hsla(199, 92%, 15%, 0.8);
   --white-bgn: hsla(0, 0%, 100%, 0.8);
   --white-high-opac: hsla(0, 0%, 100%, 0.3);
@@ -232,6 +232,13 @@ ul a {
 
 /* Mobile styles - 520px */
 @media screen and (max-width: 520px) {
+  html {
+    background-color: var(--azure-bgn);
+  }
+
+  .row {
+    background-image: none;
+  }
   .hero {
     display: none;
   }
@@ -271,7 +278,7 @@ ul a {
 
 
   .content {
-    margin-top: 2rem;
+    margin-top: 3% 0;
   }
 
   .projects {
@@ -288,6 +295,11 @@ ul a {
     background-color: var(--blue-bgn);
     padding: 0.25rem 0;
   }
+
+  .content-title, .projects {
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
+  }
+
 
 
 

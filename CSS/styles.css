@@ -300,16 +300,14 @@ ul a {
 
   .row {
     background-image: none;
+    display: block;
+    min-height: 100vh;
   }
   
   .hero {
     display: none;
   }
 
-  .row {
-    display: block;
-    min-height: 100vh;
-  }
 
   .nav {
     padding: 0;
@@ -346,6 +344,14 @@ ul a {
     margin: 0;
     background-color: var(--blue-bgn);
     padding: 0.25rem 0;
+  }
+
+  .content {
+    margin-bottom: 3%;
+  }
+
+  .content-title, .projects {
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
   }
 
 

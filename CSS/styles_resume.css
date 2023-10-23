@@ -1,6 +1,10 @@
+:root {
+   --azure-bgn: hsl(180, 100%, 97%);
+}
+
 body {
    background-image: none;
-   background-color: rgb(208, 208, 208);
+   background-color: var(--azure-bgn);
    font-family: "Work Sans", Arial, sans-serif;
    min-width: 300px;
 }
@@ -8,8 +12,7 @@ body {
 
 .col-sm-8 {
    width: 75%;
-   border: 1px solid rgb(192, 192, 192);
-   box-shadow: 1px 1px;
+   border: 1px solid rgb(204, 204, 204);
    background-color: rgb(255, 255, 255);
    color: darkgrey;
    margin: 3rem auto;
