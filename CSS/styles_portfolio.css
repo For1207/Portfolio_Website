@@ -171,14 +171,13 @@ ul a {
 .current-prj, .old-prj {
   width: 50%;
   height: 50%;
-  background-color: var(--blue-bgn);
+  background-color: var(--light-blue);
   box-shadow: 8px 8px 20px 0 rgba(0,0,0,0.75);
   overflow: hidden;
   position: relative;
   display: flex;
-
+  padding: 2.2rem;
 }
-
 .projects a {
   text-decoration: none;
 }
