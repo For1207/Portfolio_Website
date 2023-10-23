@@ -6,7 +6,7 @@
   --white-high-opac: hsla(0, 0%, 100%, 0.3);
   --pure-white: hsl(0, 0%, 100%);
   --dark-grey: rgb(92, 92, 92);
-  --accent-burgundy:  hsla(345, 68%, 30%, 0.85);
+  --accent-burgundy:  hsla(345, 68%, 30%, 0.8);
   --light-blue: hsl(215, 48%, 89%);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
