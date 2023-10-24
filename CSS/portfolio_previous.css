@@ -1,0 +1,61 @@
+.projects {
+  width: 75%;
+  align-items: center;
+}
+
+.card {
+  width: 45%;
+  background-color: var(--light-blue);
+}
+
+.card-img {
+  padding: 1.5rem;
+}
+
+.card-desc > p {
+  padding: 0.5rem 0;
+}
+
+.info-popup-text {
+  width: 15vw;
+  text-align: justify;
+  padding: 1rem;
+
+}
+
+.info-popup-text a {
+  margin-top: 0.5rem;
+}
+
+.info-container {
+  width: 10%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .projects {
+    width: 90%;
+    padding: 2rem;
+    align-items: normal;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .projects {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .card {
+    width: 80% ;
+  }
+
+  .info-container {
+    width: 12%;
+  }
+}
+
+
+
+
+
+

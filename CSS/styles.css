@@ -171,6 +171,10 @@ ul a {
   margin-bottom: 2rem;
 }
 
+.card {
+  background-color: var(--light-blue);
+}
+
 .card:nth-child(odd) {
   top: -10%;
   left: 15%;
@@ -181,7 +185,6 @@ ul a {
   margin-top: 15%;
   right: 15%;
 }
-
 
 .projects, .card, .overlay {
   border-radius: 1rem;

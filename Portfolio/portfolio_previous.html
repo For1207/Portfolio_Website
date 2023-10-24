@@ -10,8 +10,9 @@
       <meta name="author" content="Igor Mykhalchuk">
       <title>Igor Mykhalchuk | Portfolio</title>
       <link rel="icon" type="image/x-icon" href="../images/favicon.png">
-      <link rel="stylesheet" href="../CSS/styles_portfolio.css">
-      <link rel="stylesheet" href="../CSS/styles_portoflio_previous.css">
+      <link rel="stylesheet" href="../CSS/styles.css">
+      <link rel="stylesheet" href="../CSS/portfolio_current.css">
+      <link rel="stylesheet" href="../CSS/portfolio_previous.css">
       <script src="../scripts/porfolio.js"></script>
 
    </head>
@@ -56,91 +57,97 @@
 
          </div>
          <div class="content">
-            <h1>Previous Projects</h1>
+            <div class="content-title">
+               <h1>Previous Projects</h1>
+            </div>
+
+
             <div class="projects">
-              <div class="old-prj-container" >
-                <a class="current-prj" href="../Portfolio/Projects/Memory-Game/memory-game.html">
-                  <img src="../images/projects_screenshots/Memory_game.webp" alt="project projects_screenshot">
-                  <div class="overlay">
-                     <img src="../images/icons/eye-icon.svg" alt="">
+               <div class="card">
+                  <a class="card-img" href="./Projects/Memory-Game/memory-game.html">
+                     <h2>Memory Game</h2>
+                     <img src="../images/projects_screenshots/Memory_game.webp" alt="memory game screenshot">
+                     <div class="overlay">
+                        <img src="../images/icons/eye-icon.svg" alt="eye icon">
+                     </div>
+                  </a>
+                  <div class="card-desc">
+                     <p>Emulates the logic of a card game using JavaScript, CSS, and HTML</p>
+                     <div class="info-container" onclick="showPopUp(event);">
+                        <img src="../images/icons/info-icon.svg" alt="info icon">
+                        <p class="info-popup-text">
+                           This project is an electronic version of a well-known card game "Concentration" or simply "Pairs". This is a card game in which all of the cards are laid face down. Then, two cards are flipped face up over each turn. The object is to find pairs of matching cards. The game ends when the last pair has been picked up. The goal of the project is to emulate the logic of the game using HTML, CSS, and JavaScript.
+                           <a href="https://github.com/For1207/Udacity-Memory-Game" target="_blank">GitHub</a>
+                        </p>
+                     </div>
                   </div>
-               </a>
-               <div class="prj-description">
-                <p>Emulates the logic of a card game using JavaScript, CSS, and HTML</p>
-                <div class="info-container" onclick="showPopUp(event);">
-                  <img src="../images/icons/info-icon.svg" alt="info icon">
-                  <p class="info-popup-text">
-                    This project is an electronic version of a well-known card game "Concentration" or simply "Pairs". This is a card game in which all of the cards are laid face down. Then, two cards are flipped face up over each turn. The object is to find pairs of matching cards. The game ends when the last pair has been picked up. The goal of the project is to emulate the logic of the game using HTML, CSS, and JavaScript.
-                    <a href="https://github.com/For1207/Udacity-Memory-Game" target="blank">GitHub Repo</a>
-                  </p>
-                </div>
-              </div>
-              </div>
+               </div>
 
-              <div class="old-prj-container">
-                <a class="current-prj" href="../Portfolio/Projects/Classic-Arcade-Game/arcade-game.html" id="arcade">
-                  <img src="../images/projects_screenshots/Classic_Arcade_Game.webp" alt="project projects_screenshot">
-                  <div class="overlay">
-                     <img src="../images/icons/eye-icon.svg" alt="eye icon">
+               <div class="card">
+                  <a class="card-img" href="./Projects/Classic-Arcade-Game/arcade-game.html">
+                     <h2>Arcade Game</h2>
+                     <img src="../images/projects_screenshots/Classic_Arcade_Game.webp" alt="arcade game screenshot">
+                     <div class="overlay">
+                        <img src="../images/icons/eye-icon.svg" alt="eye icon">
+                     </div>
+                  </a>
+                  <div class="card-desc">
+                     <p>An arcade game developed with JavaScript object-oriented programming features</p>
+                     <div class="info-container" onclick="showPopUp(event);">
+                        <img src="../images/icons/info-icon.svg" alt="info icon">
+                        <p class="info-popup-text">
+                           The goal of this project is to develop a simple arcade game using JavaScript object-oriented programming features.
+                           <a href="https://github.com/For1207/Udacity-Classic-Arcade-Game-Clone" target="_blank">GitHub</a>
+                        </p>
+                     </div>
                   </div>
-               </a>
-               <div class="prj-description">
-                <p>An arcade game developed with JavaScript object-oriented programming features.
-                <div class="info-container" onclick="showPopUp(event);" >
-                  <img src="../images/icons/info-icon.svg" alt="info icon">
-                  <p class="info-popup-text">
-                    The goal of this project is to develop a simple arcade game using JavaScript object-oriented programming features.
-                    <a href="https://github.com/For1207/Udacity-Classic-Arcade-Game-Clone" target="blank">GitHub Repo</a>
-                  </p>
-                </div>
-              </div>
-              </div>
+               </div>
 
-              <div class="old-prj-container">
-                <a class="current-prj" href="../Portfolio/Projects/Restaurant-Review-App/index.html" id="arcade">
-                  <img src="../images/projects_screenshots/Restaurant_Review_App.webp">
-                  <div class="overlay">
-                     <img src="../images/icons/eye-icon.svg" alt="eye icon">
+               <div class="card">
+                  <a class="card-img" href="./Projects/Restaurant-Review-App/index.html">
+                     <h2>Restaurant Review App</h2>
+                     <img src="../images/projects_screenshots/Restaurant_Review_App.webp" alt="restaurant review app screenshot">
+                     <div class="overlay">
+                        <img src="../images/icons/eye-icon.svg" alt="eye icon">
+                     </div>
+   
+                  </a>
+                  <div class="card-desc">
+                     <p>In this project I have converted a static webpage to an offline-ready web-application.</p>
+                     <div class="info-container" onclick="showPopUp(event);">
+                        <img src="../images/icons/info-icon.svg" alt="info icon">
+                        <p class="info-popup-text">                    
+                           <span>How to Start a website</span><br>
+                           1. Download the project form <a href="https://github.com/For1207/Udacity-Restaurant-Review-App" target="blank">GitHub Repo</a><br>
+                           2. In the project folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this: <br>
+                             - If you have Python 2.x, spin up the server with <span class="cursive">`python -m SimpleHTTPServer 8000`</span>.<br>
+                             - For Python 3.x, you can use <span class="cursive">`python3 -m http.server 8000`</span>. <br>
+                            3. With your server running, visit the site: <span class="cursive">`http://localhost:8000`</span>.
+       
+                        </p>
+                     </div>
                   </div>
-               </a>
-               <div class="prj-description">
-                <p>In this project I have converted a static webpage to an offline-ready web-application.
-                <div class="info-container" onclick="showPopUp(event);" >
-                  <img src="../images/icons/info-icon.svg" alt="info icon">
-                  <p class="info-popup-text">
-                    <span>How to Start a website</span><br>
-                    1. Go to 
-                    <a href="https://github.com/For1207/Udacity-Restaurant-Review-App" target="blank">GitHub Repo</a>
-                    and download the project. <br>
-                    2. In the project folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this: <br>
-                      - If you have Python 2.x, spin up the server with <span class="cursive">`python -m SimpleHTTPServer 8000`</span>.<br>
-                      - For Python 3.x, you can use <span class="cursive">`python3 -m http.server 8000`</span>. <br>
-                     3. With your server running, visit the site: <span class="cursive">`http://localhost:8000`</span>.
+               </div>
 
-
-                  </p>
-                </div>
-              </div>
-              </div>
-
-              <div class="old-prj-container">
-                <a class="current-prj" href="../Portfolio/Projects/Feed-Reader/feed-reader.html">
-                  <img src="../images/projects_screenshots/Feed_Reader_Testing.webp" alt="project screenshot">
-                  <div class="overlay">
-                     <img src="../images/icons/eye-icon.svg" alt="eye icon">
+               <div class="card">
+                  <a class="card-img" href="./Projects/Feed-Reader/feed-reader.html">
+                     <h2>Feed Reader Testing</h2>
+                     <img src="../images/projects_screenshots/Feed_Reader_Testing.webp" alt="feed reader testing screenshot">
+                     <div class="overlay">
+                        <img src="../images/icons/eye-icon.svg" alt="eye icon">
+                     </div>
+                  </a>
+                  <div class="card-desc">
+                     <p>Learning test-driven development by using the Jasmine.js framework</p>
+                     <div class="info-container" onclick="showPopUp(event);">
+                        <img src="../images/icons/info-icon.svg" alt="info icon">
+                        <p class="info-popup-text">
+                           The goal of this project is to learn "testing-driven development" by using the Jasmine.js framework. 
+                           <a href="https://github.com/For1207/Udacity-FeedReader" target="blank">GitHub Repo</a>       
+                        </p>
+                     </div>
                   </div>
-               </a>
-               <div class="prj-description">
-                <p>Learning test-driven development by using the Jasmine.js framework.
-                <div class="info-container" onclick="showPopUp(event);" >
-                  <img src="../images/icons/info-icon.svg" alt="info icon">
-                  <p class="info-popup-text">
-                     The goal of this project is to learn "testing-driven development" by using the Jasmine.js framework. 
-                    <a href="https://github.com/For1207/Udacity-FeedReader" target="blank">GitHub Repo</a>
-                  </p>
-                </div>
-              </div>
-              </div>
+               </div>
 
             </div>
          </div>
