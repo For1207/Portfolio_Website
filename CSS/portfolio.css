@@ -6,8 +6,7 @@
 }
 
 .card {
-  width: 55%;
-  padding: 2rem;
+  width: 60%;
 }
 
 .card:nth-child(even),
