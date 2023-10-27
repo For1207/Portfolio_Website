@@ -37,11 +37,11 @@ li {font-size: clamp(0.7rem, 0.89vw, 0.8rem);}
 p {font-size: clamp(0.8rem, 0.92vw, 0.9rem);}
 
 
-h1, h2, h3, ul {
+h1, h2, h3, ul, li {
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  color: var(--white-bgn);
 
 }
 

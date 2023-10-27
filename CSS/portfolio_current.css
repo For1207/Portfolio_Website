@@ -68,6 +68,7 @@ h3 a {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  color: var(--white-bgn);
 }
 
 p {
