@@ -75,6 +75,7 @@ h1, h2, h3, ul, li {
 
 .nav-item img {
   width: clamp(1.5rem, 1.667vw, 1.5rem);
+  opacity: 0.85;
 }
 
 .content {
