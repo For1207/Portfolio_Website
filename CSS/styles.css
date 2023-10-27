@@ -128,18 +128,23 @@ ul a {
 
 .get-in-touch {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 1rem;
   flex-wrap: wrap;
-  margin-bottom: 3%;
+  padding: 1.5rem 0.5rem;
 }
 
 .get-in-touch a {
   display: block;
-  width: clamp(2rem, 1.75vw, 2.5rem);
-  min-width: 2rem;
+  width: clamp(1.9rem, 2.111vw, 1.9rem);
   border: 2px solid transparent;
-  margin: 0.2rem;
+  border-radius: 50%;
 }
+
+.get-in-touch a img {
+  opacity: 0.85;
+}
+
 
 .content-title {
   padding: 0.75rem 1.5rem;
@@ -345,7 +350,8 @@ ul a {
     width: 100%;
     margin: 0;
     background-color: var(--blue-bgn);
-    padding: 0.25rem 0;
+    padding: 0.7rem 0;
+    justify-content: space-around;
   }
 
   .content {
