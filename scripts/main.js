@@ -14,6 +14,4 @@ function showHideContacts() {
 
       flag = 0;
    }
-
-
 }
