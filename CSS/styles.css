@@ -364,8 +364,9 @@ ul a {
   }
 
   ul li {
-    padding: 0.25rem 0.65rem;
+    padding: 0.3rem 0;
     border: 2px solid transparent;
+    width: 3.5rem;
     
   }
 
@@ -387,7 +388,7 @@ ul a {
     width: 100%;
     margin: 0;
     background-color: var(--blue-bgn);
-    padding: 0.7rem 0;
+    padding: 0.7rem 4.5rem;
     justify-content: space-around;
   }
 

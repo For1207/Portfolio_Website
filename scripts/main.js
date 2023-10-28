@@ -11,6 +11,7 @@ function showHideContacts() {
    } else {
       getInTouch.style.display = "none";
       contacts.style.backgroundColor = "initial";
+
       flag = 0;
    }
 
