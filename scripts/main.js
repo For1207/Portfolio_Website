@@ -5,7 +5,7 @@ function showHideContacts() {
    const getInTouch = document.getElementById("get-in-touch");
 
    if(flag === 0) {
-      contacts.style.backgroundColor = "hsla(345, 68%, 30%, 0.8)";
+      contacts.style.backgroundColor = "hsla(345, 68%, 30%, 0.7)";
       getInTouch.style.display = "flex";
       flag = 1;
    } else {

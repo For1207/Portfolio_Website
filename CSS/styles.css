@@ -367,7 +367,10 @@ ul a {
     padding: 0.3rem 0;
     border: 2px solid transparent;
     width: 3.5rem;
-    
+  }
+
+  ul li:hover {
+    border: 2px solid transparent;
   }
 
 
