@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="../CSS/styles.css">
       <link rel="stylesheet" href="../CSS/portfolio_current.css">
       <link rel="stylesheet" href="../CSS/portfolio_previous.css">
+      <script src="../scripts/main.js"></script>
       <script src="../scripts/porfolio.js"></script>
 
    </head>
@@ -61,8 +62,14 @@
                      <span>Gallery</span>
                   </li>
                </a>
+               <a href="#" onclick="showHideContacts();" id="contacts">
+                  <li  class="nav-item" id="contacts-item">
+                     <img src="../images/svg/contact.svg" alt="contacts icon">
+                     <span>Contacts</span>
+                  </li>
+               </a>
             </ul>
-            <div class="get-in-touch">
+            <div class="get-in-touch" id="get-in-touch">
                <a href="mailto:mykhigo@gmail.com">
                   <img src="../images/svg/mail.svg" alt="email icon">
                </a>

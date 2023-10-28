@@ -11,6 +11,7 @@
       <title>Igor Mykhalchuk | Portfolio</title>
       <link rel="icon" type="image/x-icon" href="./images/favicon.png">
       <link rel="stylesheet" href="./CSS/styles.css">
+      <script src="./scripts/main.js"></script>
    </head>
    <body>
       <div class="row">
@@ -51,8 +52,15 @@
                      <span>Gallery</span>
                   </li>
                </a>
+               <a href="#" onclick="showHideContacts();" id="contacts">
+                  <li  class="nav-item" id="contacts-item">
+                     <img src="./images/svg/contact.svg" alt="contacts icon">
+                     <span>Contacts</span>
+                  </li>
+               </a>
             </ul>
-            <div class="get-in-touch">
+            
+            <div class="get-in-touch" id="get-in-touch">
                <a href="mailto:mykhigo@gmail.com">
                   <img src="./images/svg/mail.svg" alt="email icon">
                </a>
@@ -108,6 +116,8 @@
                   <img src="./images/icons/eye-icon.svg" alt="eye icon">
                 </div>
               </a>
+
+              
               
             </div>
          </div>

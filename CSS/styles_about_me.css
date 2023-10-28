@@ -1,8 +1,15 @@
-p {font-size: clamp(1rem, 1.15vw, 1.15rem);}
+p, p a {
+  font-size: clamp(1rem, 1.15vw, 1.15rem);
+  color: var(--dark-grey);
+}
 
 .content-title h2 {
   margin-top: 2%;
   font-size: clamp(1rem , 1vw, 1.2rem);
+}
+
+p a {
+  font-weight: 400;
 }
 
 .projects, .skills {

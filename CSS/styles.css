@@ -136,6 +136,10 @@ ul a {
   color: var(--pure-white);
 }
 
+#contacts {
+  display: none;
+}
+
 .get-in-touch {
   display: flex;
   justify-content: center;
@@ -321,6 +325,10 @@ ul a {
     background-color: var(--azure-bgn);
   }
 
+  #contacts {
+    display: flex;
+  }
+
   .row {
     background-image: none;
     display: block;
@@ -373,6 +381,7 @@ ul a {
 
 
   .get-in-touch {
+    display: none;
     bottom: 0;
     left: 0;
     width: 100%;
