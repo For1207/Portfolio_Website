@@ -4,7 +4,8 @@
 
 body {
    background-image: none;
-   background-color: var(--azure-bgn);
+   /* background-color: var(--azure-bgn); */
+   background-image: url(../images/svg/vanishing-stripes.svg);
    font-family: "Work Sans", Arial, sans-serif;
    min-width: 300px;
 }
