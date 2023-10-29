@@ -118,7 +118,7 @@ ul li {
   padding: 0.5rem;
   margin-bottom: 1rem;
   border: 1px solid hsl(0, 0%, 35%);
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.75);
+  box-shadow:  0 1px 4px 0 rgba(0,0,0,0.75);
   border-left: none;
   border-right: none;
 }
@@ -372,6 +372,18 @@ ul li:hover {
 
   .nav-item span {
     font-size: 0.5rem;
+  }
+
+  ul li {
+    padding: 0.3rem 0;
+    border: 1px solid transparent;
+    width: 3.5rem;
+    border-radius: 0.25rem;
+  }
+
+  ul li:hover {
+    border: 1px solid transparent;
+
   }
 
 
