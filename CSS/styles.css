@@ -154,7 +154,9 @@ ul li:hover {
 .get-in-touch {
   display: flex;
   justify-content: center;
-  gap: 0.75rem;
+  column-gap: 0.75vw;
+  row-gap: 1.5vw;
+  padding: 0 0.75vw;
   flex-wrap: wrap;
   margin-bottom: 1.75rem;
 }
