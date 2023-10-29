@@ -8,8 +8,8 @@
 }
 
 .card h2 {
-  border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
+  border-top: 2px solid hsl(0, 0%, 50%);
+  border-bottom: 2px solid hsl(0, 0%, 50%);
   left: 0;
 }
 
