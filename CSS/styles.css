@@ -190,16 +190,18 @@ ul li:hover {
 }
 
 .projects {
-  width: 75%;
+  width: 90%;
   margin: 3% auto 0;
   /* background-color: hsla(0, 0%, 100%, 0.3); */
   /* box-shadow: 1px 1px 80px 0 rgba(0,0,0,0.75); */
   border-radius: 1rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 5vw;
   align-items: center;
   padding-bottom: 4rem;
+  margin-top: 5vw;
   margin-bottom: 2rem;
 }
 
@@ -207,7 +209,7 @@ ul li:hover {
   background-color: var(--light-blue);
 }
 
-.card:nth-child(odd) {
+/* .card:nth-child(odd) {
   top: -10%;
   left: 15%;
   z-index: 1;
@@ -216,7 +218,7 @@ ul li:hover {
 .card:nth-child(even) {
   margin-top: 15%;
   right: 15%;
-}
+} */
 
 .projects, .card, .overlay {
   border-radius: 1rem;
@@ -224,7 +226,7 @@ ul li:hover {
 
 .card {
   display: block;
-  width: 40%;
+  width: 35%;
   box-shadow: 8px 8px 20px 0 rgba(0,0,0,0.75);
   overflow: hidden;
   position: relative;
@@ -285,7 +287,7 @@ ul li:hover {
 }
 
 /* Tablet styles */
-@media screen and (max-width:864px) {
+@media screen and (max-width:960px) {
   .nav {
     width: 25%;
   }
@@ -297,6 +299,15 @@ ul li:hover {
   .content-title {
     width: 65%;
   }
+
+  .card {
+    width: 55%;
+    position: relative;
+    width: 75;
+    left: 0;
+    right: 0;
+  }
+
   
 }
 
@@ -312,13 +323,13 @@ ul li:hover {
     padding: 2rem 0;
   }
 
-  .card {
+  /* .card {
     width: 55%;
     position: relative;
     width: 75;
     left: 0;
     right: 0;
-  }
+  } */
 
   .card:nth-child(odd) {
     left: 0;
@@ -414,14 +425,14 @@ ul li:hover {
     margin-bottom: 3%;
   }
 
-  .content-title, .projects {
+  .content-title {
     box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
   }
 
 
   .content-title {
     margin-top: 2rem;
-    width: 90%;
+    width: 75%;
   }
 
   .projects {
