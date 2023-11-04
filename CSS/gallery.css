@@ -17,9 +17,6 @@
   .content {
     margin-bottom: 3%;
   }
-  .content-title, .projects {
-    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
-  }
 
   .card {
     width: 75%;
