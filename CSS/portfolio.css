@@ -1,7 +1,6 @@
 .projects {
   flex-direction: column;
   justify-content: center;
-  padding: 4rem 0;
   row-gap: 2rem;
 }
 

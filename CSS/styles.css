@@ -200,9 +200,9 @@ ul li:hover {
   justify-content: center;
   gap: 5vw;
   align-items: center;
-  padding-bottom: 4rem;
   margin-top: 5vw;
   margin-bottom: 2rem;
+  border: 3px solid red;
 }
 
 .card {
