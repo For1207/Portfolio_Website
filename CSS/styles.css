@@ -175,7 +175,7 @@ ul li:hover {
 
 .content-title {
   padding: 0.75rem 1.5rem;
-  width: 75%;
+  width: 45%;
   margin: 4% auto 0;
   background-color: hsla(0, 0%, 100%, 0.7);
   box-shadow: 1px 1px 40px 0 rgba(0,0,0,0.75);
@@ -192,8 +192,8 @@ ul li:hover {
 .projects {
   width: 75%;
   margin: 3% auto 0;
-  background-color: hsla(0, 0%, 100%, 0.3);
-  box-shadow: 1px 1px 80px 0 rgba(0,0,0,0.75);
+  /* background-color: hsla(0, 0%, 100%, 0.3); */
+  /* box-shadow: 1px 1px 80px 0 rgba(0,0,0,0.75); */
   border-radius: 1rem;
   display: flex;
   flex-wrap: wrap;
