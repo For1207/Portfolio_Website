@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
   --azure-bgn: hsl(180, 100%, 97%);
   --blue-bgn: hsla(199, 92%, 15%, 0.8);
@@ -56,7 +57,7 @@ body {
   min-width: 375px;
   min-height: 100dvh;
   margin: 0 auto;
-  background-image: url(../images/background5.webp);
+  background-image: url(../images/background6.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -178,7 +179,7 @@ ul li:is(:hover, :active) {
   width: 45%;
   margin: 4% auto 0;
   background-color: hsla(0, 0%, 100%, 0.7);
-  box-shadow: 1px 1px 40px 0 rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
 }
 
 .content-title h1 {
@@ -216,7 +217,7 @@ ul li:is(:hover, :active) {
 .card {
   display: block;
   width: 35%;
-  box-shadow: 8px 8px 20px 0 rgba(0,0,0,0.75);
+  box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
   overflow: hidden;
   position: relative;
 
