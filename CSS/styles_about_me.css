@@ -1,3 +1,4 @@
+
 p, p a {
   font-size: clamp(1rem, 1.15vw, 1.15rem);
   color: var(--dark-grey);
@@ -21,7 +22,8 @@ p a {
   border-radius: 1rem;
   padding: 3rem;
   text-indent: 1rem;
-  column-count: 3;
+  column-count: 2;
+  text-align: justify;
   line-height: 1.75;
   font-weight: 300;
 }
@@ -46,6 +48,8 @@ p a {
 @media screen and (max-width: 1024px) {
   .projects {
     width: 90%;
+    column-count: 1;
+    text-align: justify;
   }
 }
 
@@ -53,8 +57,7 @@ p a {
 @media screen and (max-width: 768px) {
 
   .projects {
-    column-count: 2;
-    padding: 2rem;
+    padding: 3rem;
   }
 
   .skills {
