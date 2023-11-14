@@ -164,7 +164,7 @@ span.cursive {
   }
 
   .row {
-    background-image: none;
+    background-image: url(../images/svg/vanishing-stripes.svg);
   }
 
   .projects h3 {
