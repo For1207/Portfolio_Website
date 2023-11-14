@@ -339,7 +339,7 @@ ul li:is(:hover, :active) {
   .row {
     background-image: none;
     display: block;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-image: url(../images/svg/vanishing-stripes.svg);
       
   }

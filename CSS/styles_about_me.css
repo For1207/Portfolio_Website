@@ -19,7 +19,7 @@ p a {
   margin: 4rem auto 0;
   background-color: hsla(0, 0%, 100%, 0.85);
   box-shadow: 1px 1px 80px 0 rgba(0,0,0,0.75);
-  border-radius: 1rem;
+  border-radius: 0.35rem;
   padding: 3rem;
   text-indent: 1rem;
   column-count: 2;
