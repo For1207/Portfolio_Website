@@ -163,9 +163,9 @@ span.cursive {
     background-color: var(--azure-bgn);
   }
 
-  .row {
+  /* .row {
     background-image: url(../images/svg/vanishing-stripes.svg);
-  }
+  } */
 
   .projects h3 {
     width: 90%;
