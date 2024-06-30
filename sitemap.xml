@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://imykdev.com/</loc>
+  <lastmod>2024-06-30T00:07:59+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/index.html</loc>
+  <lastmod>2024-06-30T00:07:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/portfolio.html</loc>
+  <lastmod>2024-06-30T00:07:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/about_me.html</loc>
+  <lastmod>2024-06-30T00:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/resume.html</loc>
+  <lastmod>2024-06-30T00:07:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/gallery.html</loc>
+  <lastmod>2024-06-30T00:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Portfolio/portfolio_current.html</loc>
+  <lastmod>2024-06-29T00:31:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Portfolio/portfolio_previous.html</loc>
+  <lastmod>2024-06-29T00:31:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Docs/Igor_M_resume_082423.docx</loc>
+  <lastmod>2024-06-29T00:30:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Docs/Igor_M_resume_082423.pdf</loc>
+  <lastmod>2024-06-29T00:30:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Gallery/gallery_landscapes.html</loc>
+  <lastmod>2024-06-29T00:30:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Gallery/gallery_bw.html</loc>
+  <lastmod>2024-06-29T00:30:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Gallery/gallery_panoramas.html</loc>
+  <lastmod>2024-06-29T00:30:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Gallery/gallery_np.html</loc>
+  <lastmod>2024-06-29T00:30:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Portfolio/Projects/Memory-Game/memory-game.html</loc>
+  <lastmod>2024-06-29T00:31:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Portfolio/Projects/Classic-Arcade-Game/arcade-game.html</loc>
+  <lastmod>2024-06-29T00:31:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Portfolio/Projects/Restaurant-Review-App/index.html</loc>
+  <lastmod>2024-06-29T00:31:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://imykdev.com/Portfolio/Projects/Feed-Reader/feed-reader.html</loc>
+  <lastmod>2024-06-29T00:31:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
