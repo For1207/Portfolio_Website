@@ -52,10 +52,6 @@ h2 {
    padding-bottom: 1.6rem;
 }
 
-li {
-   /* display: inline-block; */
-}
-
 .col-sm-2 {
    width: 20%;
 }
@@ -108,6 +104,9 @@ ul a:hover {
    padding-bottom: 0.25rem;
 } 
 
+span {
+   margin-bottom: 1rem;
+}
 .skills ul li{
    color:rgb(64, 64, 64)
 }
